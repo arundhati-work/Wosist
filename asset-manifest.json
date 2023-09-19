@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Wosist/static/css/main.073c9b0a.css",
+    "main.js": "/Wosist/static/js/main.69523092.js",
+    "static/js/787.98d624bd.chunk.js": "/Wosist/static/js/787.98d624bd.chunk.js",
+    "static/media/logo.svg": "/Wosist/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Wosist/index.html",
+    "main.073c9b0a.css.map": "/Wosist/static/css/main.073c9b0a.css.map",
+    "main.69523092.js.map": "/Wosist/static/js/main.69523092.js.map",
+    "787.98d624bd.chunk.js.map": "/Wosist/static/js/787.98d624bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.69523092.js"
+  ]
+}
