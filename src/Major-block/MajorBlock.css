@@ -1,0 +1,20 @@
+.block{
+    height: 100px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #95C1E9;
+    border-radius: 7px;
+    color: #EFEBEB;
+    cursor: pointer;
+}
+
+.block:hover{
+    background-color: #65B0F3;
+    transition: 0.5s ease;
+}
+
+.block p{
+    font-size: 20px;
+}
