@@ -1,0 +1,43 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #95C1E9;
+    color: #F5F0F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wosist-name{
+    margin-left: 30px;
+}
+
+.wosist-name p{
+    font-size: 50px;
+}
+
+.wosist-tagline{
+    margin-left: 30px;
+}
+
+.wosist-tagline p{
+    font-size: 20px;
+}
+
+.Login{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Login p{
+    font-size: 20px;
+}
+
