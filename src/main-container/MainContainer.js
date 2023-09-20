@@ -2,6 +2,7 @@ import Navbar from "../Navbar/Navbar";
 import TimeFrame from "../TimeFrame/TimeFrame";
 import TopicBlock from "../TopicBlock/TopicBlock";
 import SubtopicBlock from "../SubtopicBlock/SubtopicBlock";
+import GeneratingPlan from "../GeneratingPlan/GeneratingPlan";
 import './MainContainer.css';
 
 function MainContainer(){
@@ -10,7 +11,7 @@ function MainContainer(){
             <div className="main-container">
                 <Navbar/>
                 <div className="frame-container">
-                    <TimeFrame/> 
+                    <GeneratingPlan/> 
                 </div>
             </div>
         </div>
