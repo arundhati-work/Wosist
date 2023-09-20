@@ -1,0 +1,16 @@
+{
+    "subtopics" : [
+        {"id":1, "label": "Data Structures"},
+        {"id":2, "label": "Algorithms"},
+        {"id":3, "label": "DBMS"},
+        {"id":4, "label": "Operating System"},
+        {"id":5, "label": "Networks"},
+        {"id":6, "label": "Digital Logic"},
+        {"id":7, "label": "ToC"},
+        {"id":8, "label": "Compiler Design"},
+        {"id":9, "label": "Org & Arch"},
+        {"id":10, "label": "Discrete Math"},
+        {"id":11, "label": "Engg Math"},
+        {"id":12, "label": "Random"}
+    ]
+}
