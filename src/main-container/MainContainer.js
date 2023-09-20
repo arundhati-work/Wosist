@@ -1,5 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import TimeFrame from "../TimeFrame/TimeFrame";
+import TopicBlock from "../TopicBlock/TopicBlock";
 import './MainContainer.css';
 
 function MainContainer(){

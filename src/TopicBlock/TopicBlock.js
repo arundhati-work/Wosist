@@ -1,20 +1,20 @@
-import './TimeFrame.css';
+import './TopicBlock.css';
 import Question from '../Question/Question';
-import hoursData from '../data/hours.json';
+import topicsData from '../data/topics.json';
 import MajorBlock from '../Major-block/MajorBlock';
 
 
-function TimeFrame(){
+function TopicBlock(){
     return (
         <div className="container">
             <Question q="How much time do you have?"/>
             <div className="hours-container">
-                {hoursData.hours.map((hour)=>{
-                    return <MajorBlock key={hour.id} data={hour.label}/>
+                {topicsData.topics.map((topic)=>{
+                    return <MajorBlock key={topic.id} data={topic.label}/>
                 })}
             </div> 
         </div>
     );
 }
 
-export default TimeFrame;
+export default TopicBlock;

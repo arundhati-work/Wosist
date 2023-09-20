@@ -4,7 +4,7 @@ import './MajorBlock.css';
 function MajorBlock(props){
     return (
         <div className="block">
-            <p>{props.hours}</p>
+            <p>{props.data}</p>
         </div>
     )
 }
