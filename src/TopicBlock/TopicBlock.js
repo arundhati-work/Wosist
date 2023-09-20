@@ -7,7 +7,7 @@ import MajorBlock from '../Major-block/MajorBlock';
 function TopicBlock(){
     return (
         <div className="container">
-            <Question q="How much time do you have?"/>
+            <Question q="What topic interests you?"/>
             <div className="hours-container">
                 {topicsData.topics.map((topic)=>{
                     return <MajorBlock key={topic.id} data={topic.label}/>

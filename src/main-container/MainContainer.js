@@ -10,7 +10,7 @@ function MainContainer(){
             <div className="main-container">
                 <Navbar/>
                 <div className="frame-container">
-                    <SubtopicBlock/> 
+                    <TimeFrame/> 
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@ import './MinorBlock.css';
 
 function MinorBlock(props){
     return (
-        <div className="block">
+        <div className="minor-block">
             <p>{props.data}</p>
         </div>
     )

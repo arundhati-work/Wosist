@@ -7,7 +7,7 @@ import MinorBlock from '../MinorBlock/MinorBlock';
 function SubtopicBlock(){
     return (
         <div className="container">
-            <Question q="How much time do you have?"/>
+            <Question q="Let's narrow it down a bit?"/>
             <div className="st-container">
                 {subtopicsData.subtopics.map((subtopic)=>{
                     return <MinorBlock key={subtopic.id} data={subtopic.label}/>
