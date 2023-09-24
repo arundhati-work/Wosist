@@ -50,3 +50,15 @@
 .buttons-container button:disabled{
     color: #A4A4A4;
 }
+
+.selected-item{
+    color: #A4A4A4;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hours-container{
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    grid-gap: 50px;
+}

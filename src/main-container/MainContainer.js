@@ -33,9 +33,9 @@ function MainContainer(){
             <div className="main-container">
                 <Navbar/>
                 <div className="frame-container">
-                    {currentComponent === 1 && <TimeFrame setSelectedTimeFrame={setSelectedTimeFrame}/>} 
-                    {currentComponent === 2 && <TopicBlock setSelectedTopic={setSelectedTopic}/>} 
-                    {currentComponent === 3 && <SubtopicBlock setSelectedSubtopic={setSelectedSubtopic}/>} 
+                    {currentComponent === 1 && <TimeFrame selectedTimeFrame={selectedTimeFrame} setSelectedTimeFrame={setSelectedTimeFrame}/>} 
+                    {currentComponent === 2 && <TopicBlock selectedTopic={selectedTopic} setSelectedTopic={setSelectedTopic}/>} 
+                    {currentComponent === 3 && <SubtopicBlock selectedSubtopic={selectedSubtopic} setSelectedSubtopic={setSelectedSubtopic}/>} 
                     {currentComponent === 4 && <GeneratingPlan timeFrame={selectedTimeFrame} topic={selectedTopic} subtopic={selectedSubtopic}/>} 
                 </div>
                 <div className="buttons-container">

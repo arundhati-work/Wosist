@@ -1,5 +1,5 @@
 .st-container{
     display: grid;
-    grid-template-columns: repeat(3,200px);
-    grid-gap: 50px;
+    grid-template-columns: repeat(3,230px);
+    grid-gap: 10px;
 }
