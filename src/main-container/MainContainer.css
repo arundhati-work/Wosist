@@ -19,8 +19,34 @@
 }
 
 .frame-container{
-    height: 88vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.buttons-container{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container button{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: transparent;
+}
+
+.buttons-container button:hover{
+    color: #A4A4A4;
+    transition: 0.3s ease;
+}
+
+.buttons-container button:disabled{
+    color: #A4A4A4;
 }
