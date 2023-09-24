@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Wosist/static/css/main.ab62208e.css",
-    "main.js": "/Wosist/static/js/main.91df9802.js",
+    "main.css": "/Wosist/static/css/main.f2c630df.css",
+    "main.js": "/Wosist/static/js/main.bbb7e771.js",
     "static/js/787.98d624bd.chunk.js": "/Wosist/static/js/787.98d624bd.chunk.js",
     "index.html": "/Wosist/index.html",
-    "main.ab62208e.css.map": "/Wosist/static/css/main.ab62208e.css.map",
-    "main.91df9802.js.map": "/Wosist/static/js/main.91df9802.js.map",
+    "main.f2c630df.css.map": "/Wosist/static/css/main.f2c630df.css.map",
+    "main.bbb7e771.js.map": "/Wosist/static/js/main.bbb7e771.js.map",
     "787.98d624bd.chunk.js.map": "/Wosist/static/js/787.98d624bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab62208e.css",
-    "static/js/main.91df9802.js"
+    "static/css/main.f2c630df.css",
+    "static/js/main.bbb7e771.js"
   ]
 }
