@@ -8,8 +8,3 @@
 }
 
 
-.hours-container{
-    display: grid;
-    grid-template-columns: repeat(2, 230px);
-    grid-gap: 150px;
-}
