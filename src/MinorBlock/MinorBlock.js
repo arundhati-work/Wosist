@@ -1,11 +1,11 @@
 import './MinorBlock.css';
 
 
-function MinorBlock(props){
+function MinorBlock({data, onSelect}){
     return (
-        <div className="minor-block">
-            <p>{props.data}</p>
-        </div>
+        <button className="minor-block" onClick={()=>onSelect(data)}>
+            {data}
+        </button>
     )
 }
 

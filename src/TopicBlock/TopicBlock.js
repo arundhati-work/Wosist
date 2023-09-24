@@ -4,13 +4,13 @@ import topicsData from '../data/topics.json';
 import MajorBlock from '../Major-block/MajorBlock';
 
 
-function TopicBlock(){
+function TopicBlock({setSelectedTopic}){
     return (
         <div className="container">
             <Question q="What topic interests you?"/>
             <div className="hours-container">
                 {topicsData.topics.map((topic)=>{
-                    return <MajorBlock key={topic.id} data={topic.label}/>
+                    return <MajorBlock key={topic.id} data={topic.label} onSelect={(value)=>setSelectedTopic(value)}/>
                 })}
             </div> 
         </div>

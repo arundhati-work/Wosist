@@ -8,6 +8,7 @@
     border-radius: 7px;
     color: #EFEBEB;
     cursor: pointer;
+    border: none;
 }
 
 .major-block:hover{
@@ -15,6 +16,6 @@
     transition: 0.5s ease;
 }
 
-.major-block p{
+.major-block{
     font-size: 20px;
 }

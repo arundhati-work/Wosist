@@ -9,6 +9,9 @@ import './MainContainer.css';
 function MainContainer(){
 
     const [currentComponent,setCurrentComponent] = useState(1);
+    const [selectedTimeFrame, setSelectedTimeFrame] = useState('');
+    const [selectedTopic, setSelectedTopic] = useState('');
+    const [selectedSubtopic, setSelectedSubtopic] = useState('');
 
     const nextComponent = () => {
         setCurrentComponent((prevComponent) =>
@@ -30,10 +33,10 @@ function MainContainer(){
             <div className="main-container">
                 <Navbar/>
                 <div className="frame-container">
-                    {currentComponent === 1 && <TimeFrame/>} 
-                    {currentComponent === 2 && <TopicBlock/>} 
-                    {currentComponent === 3 && <SubtopicBlock/>} 
-                    {currentComponent === 4 && <GeneratingPlan/>} 
+                    {currentComponent === 1 && <TimeFrame setSelectedTimeFrame={setSelectedTimeFrame}/>} 
+                    {currentComponent === 2 && <TopicBlock setSelectedTopic={setSelectedTopic}/>} 
+                    {currentComponent === 3 && <SubtopicBlock setSelectedSubtopic={setSelectedSubtopic}/>} 
+                    {currentComponent === 4 && <GeneratingPlan timeFrame={selectedTimeFrame} topic={selectedTopic} subtopic={selectedSubtopic}/>} 
                 </div>
                 <div className="buttons-container">
                     <button onClick={previousComponent} disabled={isPreviousDisabled}>&lt;</button>

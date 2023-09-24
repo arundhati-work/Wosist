@@ -1,11 +1,13 @@
+// import React, {useState} from 'react';
 import './MajorBlock.css';
 
 
-function MajorBlock(props){
+function MajorBlock({data, onSelect}){
+
     return (
-        <div className="major-block">
-            <p>{props.data}</p>
-        </div>
+        <button className="major-block" onClick={() => {onSelect(data)}}>
+            {data}
+        </button>
     )
 }
 
